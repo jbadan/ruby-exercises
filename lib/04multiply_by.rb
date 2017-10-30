@@ -9,3 +9,12 @@
 # > 5
 # > 10
 # > 15
+
+def multiply_by(array, num)
+  array.each do |number|
+    puts number * num
+  end
+end
+
+
+  multiply_by([1, 2, 3], 5)

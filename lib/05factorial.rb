@@ -9,3 +9,9 @@
 #
 # > 120
 #
+
+def factorial(num)
+  puts (1..num).inject(:*)
+end
+
+factorial(8)
